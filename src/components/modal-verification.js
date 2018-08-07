@@ -1,5 +1,8 @@
 /*jshint esversion: 6 */
 import React, { Component } from 'react';
+import locker from '../assets/Lock-unlock-01.svg';
+import refreshIcon from '../assets/refresh-button.svg';
+import phoneIcon from '../assets/phone_icon.svg';
 
 export default class ModalVerification extends Component {
     
@@ -7,7 +10,10 @@ export default class ModalVerification extends Component {
         return (
             <div>
                 <div>
-                    <div className="modal-title">Identity verification required</div>
+                    <div className="modal-title">
+                        <img className="locker" src={locker}/>
+                        Identity verification required
+                    </div>
                     <p className="modal-info">
                         For your security, we ocassionaly require you to verify your identity by
                         entering a code sent to your mobile device.
@@ -34,8 +40,14 @@ export default class ModalVerification extends Component {
                     </div>
                     <div>
                         <ul>
-                            <li>Receive a new code</li>
-                            <li>Receive code via call instead</li>
+                            <li>
+                                <img className="refresh-icon" src={refreshIcon}/>
+                                Receive a new code
+                            </li>
+                            <li>
+                                <img className="phone-icon" src={phoneIcon}/>  
+                                Receive code via call instead
+                            </li>
                         </ul>
                     </div>
                     </div>
