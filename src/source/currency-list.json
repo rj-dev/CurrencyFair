@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "name": "GBP",
+        "fullName": "Pound Sterling",
+        "flag": "../assets/united_kingdom_uk_flag.png"
+    },
+    {
+        "id": 2,
+        "name": "EUR",
+        "fullName": "Euro",
+        "flag": "../assets/europe_flag.png'"
+    },
+    {
+        "id": 3,
+        "name": "GBP",
+        "fullName": "Pound Sterling",
+        "flag": "../assets/united_kingdom_uk_flag.png"
+    },
+    {
+        "id": 4,
+        "name": "EUR",
+        "fullName": "Euro",
+        "flag": "../assets/europe_flag.png'"
+    }
+]
